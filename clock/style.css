@@ -1,0 +1,72 @@
+
+.clock-container{
+
+	height: 500px;
+	width: 500px;
+	background-color: red;
+	background: url(clocki.png);
+	background-size: 100%;
+	margin: 0px auto;
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ border-radius: 288px;
+
+}
+#hour, #minute, #second{
+	position: absolute;
+	background: red;
+	border-radius: 10px;
+	transform-origin: bottom;
+
+}
+#hour{
+	width: 13px;
+	height: 125px;
+	top: 147px;
+	left: 49.5%;
+
+}
+#minute{
+	width: 9px;
+	height: 125px;
+	top: 127px;
+	left: 49.5%;
+
+
+}
+#second{
+	width: 4px;
+	height: 152px;
+	top: 117px;
+	left: 49.5%;
+
+
+}
+#black-dot{
+	width: 41px;
+	height: 42px;
+	border-radius: 141px;
+	background: red;
+	position: absolute;
+	top: 246.5px;
+	left: 48.7%;
+}
+.design{
+	
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
